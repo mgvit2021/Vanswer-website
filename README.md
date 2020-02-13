@@ -12,15 +12,3 @@ It is designed for the students, enrolled in an educational institute so that th
 - Questions can be followed/un-followed and most followed questions are showed on top.
 
 > *We came 2nd in Idea Diffusion - organised by NeN Club where we had to provide a startup idea for our university.*
-
-# The Lifestyle Store - Ecommerce website
-I made this website as part of [Internshala's](https://internshala.com/) Web-Development course. It has all the basic features of an ecommerce website.
-
-### Features ###
-  - Easy login and Signup for customers
-  - Products can be viewed in the cart and even removed.
-  - Designed the website using Bootstrap and CSS.
-  
-### About Me - ###  
->I am pursuing Computer Science from VIT University under B.Tech program. 
->I am a passionate learner and I develop good websites.
