@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Create Account </title>
+        <script type="text/javascript" src="jsnew.js"> </script>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Coiny|Lobster" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/logreg.css">
+        <style>
+                #hed>a{
+                    text-decoration: none;
+                    color: rgba(236, 235, 235, 0.877);
+                }
+            </style>
+    </head>
+    <body>
+            <div class="container title" style="margin-top:-20px;margin-left: 3px;">
+					<h1 id="hed"> <a href="index.html"><span id="first">V</span><span id="second">Answer</span></a></h1>
+				   </div>
+    <div class="login-page">
+        <center>
+    	<b class="open">Register<b>
+            </center>
+		<div class="form">
+        <form class="register-form" name="f1" action="login2.php" onsubmit="return check()" method="POST">
+        	<input type="text" name="names" placeholder="Username"/>
+      		<input type="text" name="regno" placeholder="Registration Number">
+      		<input type="text" name="email" placeholder="Email address"/>
+      		<input type="password" name="password" placeholder="Password"/>
+            <input type="password" name="chepassword" placeholder="Confirm Password"/>
+            <input type="hidden" name="cat" value="invalid">
+      		<button type="submit" >Create</button>
+      		<p class="message">Already registered? <a href="loginto.html">Sign In</a></p>
+        </form>
+        </div>
+    </div>
+    </body>
+</html>

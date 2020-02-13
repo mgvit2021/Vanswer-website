@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en"id="mypage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny|Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <style>
+    .title{
+    margin-left: -10px;
+  }
+  .vsmall{
+    font-size:29px;
+    font-family: 'Shadows Into Light', cursive;
+
+  }
+    </style>
+</head>
+<body>
+        <div id="particles-js">
+            <div class="container title">
+             <h1 id="hed"><span id="first">V</span><span id="second">Answer</span></h1>
+            </div>
+            <div class="container cnt1">
+                <div class="jumbotron jumbo animated lightSpeedIn">
+                    <h1>Welcome to Vanswer!
+                      <i class="vsmall">&#126;&nbsp;Answers to save your semester!</i>
+                    </h1>
+                    <p>We are delighted to give you the best experience you could ever had!</p>
+                    <i style="font-size:25px;">Get Started:</i>
+                    <br>
+                    <br>
+                    <a href="accountcreationfac.html"id="start">
+                        Faculty
+                    </a>
+                    <a href="accountcreation.html"id="start">
+                        Student
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="about" class="container">
+            <div class="row">
+                <div class="col-md-6">
+                <div id="glyph_tower"><i class="glyphicon glyphicon-globe"></i></div>
+                </div>
+            <div class="col-md-6">
+                <h3>About Us</h3>
+                We are a startup from VIT University, Chennai. Our aim is to create a portal for students wherein they can clear their doubts, ask or answer questions posed by other students, and have discussions based on topics of their choice.
+                We are committed towards providing the best possible experience to the students, for efficient knowledge sharing, between the students and faculties.
+                <br>This website hopes to breach the student-teacher communication gap, and thus boost the academia of the college.
+            </div>
+           
+        </div>
+            
+        </div>
+        <div class="container mycrousel">
+                <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+      
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+            
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <h4>"Referring to this website has helped me alot in improving my grades."<br><span>Mridul Gupta , VIT Chennai</span></h4>
+                    </div>
+                    <div class="item">
+                      <h4>"Surely, VIT is better than IIT's, Great Job."<br><span>John Doe, IIT Bombay</span></h4>
+                    </div>
+                    <div class="item">
+                      <h4>"Humari taraf se canteen mai samosa kha lena"<br><span>Munna Bhaiya, King of Mirzapur</span></h4>
+                    </div>
+                  </div>
+            
+                  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+              
+        </div>
+        <center>
+        <div class="container-fluid" id="developers">
+            <h4 style="font-family: 'Times New Roman', Times, serif; font-size: 29px">From the Developers</h4>
+                <div class="row" id="dev">
+                        <div class="col-md-12">
+                              <img id="i1" src="../img/mridul.jpg" class="img-circle" width="200px" height="200px" data-toggle="popover" data-trigger="hover" data-content="Hello there!" onmouseover="animateCSS('#i1','pulse')">
+                              
+                              <div class="caption">
+                                <p>Mridul Gupta</p>
+                              </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+    </center>
+        <div id="contact" class="container-fluid bg-gray">
+                <h3 class="text-left">Contact Us</h3>
+                <div class="row">
+                  <div class="col-sm-5">
+                    <p>Contact us and we'll get back to you within 24 hours.</p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span> Chennai, India</p>
+                    <p><span class="glyphicon glyphicon-phone"></span> +91 1234567890</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+                  </div>
+                  <div class="col-sm-7 slideanim">
+                    <form action="emailauthhome.php" method="post">
+                    <div class="row">
+                      <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                      </div>
+                      <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                      </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                    <div class="row">
+                      <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit" name="submit">Send</button>
+                      </div>
+                    </div>
+                  </form>
+                  </div>
+                </div>
+              </div>
+              <footer class="container-fluid text-center">
+                    <a href="#mypage" title="To Top" class="scroll">
+                      <span class="glyphicon glyphicon-chevron-up up-icon"></span>
+                    </a>
+                    <p>Maintained By<a href="http://www.google.com/">   &nbsp;Vanswer.co</a></p>
+                  </footer>
+        <script src="js/particles.js"></script>
+        <script src="js/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();   
+  });
+  $(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  var scrollLink=$('.scroll');
+  scrollLink.click(function(e)
+  {
+      e.preventDefault();
+      var hash = this.hash;
+     $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000);
+  })
+})
+</script>
+<!--
+        <div id="particles-js">
+            <div class="container-fluid title">
+             <h1><span id="first">V</span><span id="second">answer</span></h1>
+            </div>
+            <div class="container cnt1">
+                <div class="jumbotron jumbo">
+                    <h1>Welcome to Vanswer!</h1>
+                    <p>VIT's very own question-answer forum for students and teachers!</p>
+                    <br>
+                    <br>
+                    <a href="loginto.html"id="start">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="about" class="container">
+            <div class="row">
+                <div class="col-md-6">
+                <div id="glyph_tower"><i class="glyphicon glyphicon-globe"></i></div>
+                </div>
+            <div class="col-md-6">
+                <h3>About Us</h3>
+                We are a startup from VIT University, Chennai. Our aim is to create a portal for students wherein they can clear their doubts, ask or answer questions posed by other students, and have discussions based on topics of their choice.
+                We are committed towards providing the best possible experience to the students, for efficient knowledge sharing, between the students and faculties.
+                <br>This website hopes to breach the student-teacher communication gap, and thus boost the academia of the college.
+            </div>
+           
+        </div>
+            
+        </div>
+        <div class="container mycrousel">
+                <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <h4>"Referring to this website has helped me alot in improving my grades."<br><span>Mridul Gupta , VIT Chennai</span></h4>
+                    </div>
+                    <div class="item">
+                      <h4>"Surely, VIT is better than IIT's, Great Job."<br><span>John Doe, IIT Bombay</span></h4>
+                    </div>
+                    <div class="item">
+                      <h4>"Humari taraf se canteen mai samosa kha lena"<br><span>Munna Bhaiya, King of Mirzapur</span></h4>
+                    </div>
+                  </div>
+              
+  
+                  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+              
+        </div>
+        <center>
+        <div class="container-fluid" id="developers">
+            <h4 style="font-family: 'Times New Roman', Times, serif; font-size: 29px">Our Developers</h4>
+                <div class="row" id="dev">
+                        <div class="col-md-4">
+                              <img src="./img/mridul.jpg" alt="Mridul Gupta" class="img-circle" width="200px" height="200px">
+                              
+                              <div class="caption">
+                                <p>Mridul Gupta</p>
+                              </div>
+                        </div>
+                        <div class="col-md-4">
+                              <img src="./img/samudra.jpg" alt="Samudranil Giri"class="img-circle" width="200px" height="200px">
+                              <div class="caption">
+                                <p>Samudranil Giri</p>
+                              </div>
+                        </div>
+                        <div class="col-md-4">
+                              <img src="./img/nikhil.jpg" alt="Nikhil Neogy" class="img-circle" width="200px" height="200px">
+                              <div class="caption">
+                                <p>Nikhil Neogy</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+    </center>
+        <div id="contact" class="container-fluid bg-gray">
+                <h3 class="text-left">Contact Us</h3>
+                <div class="row">
+                  <div class="col-sm-5">
+                    <p>Contact us and we'll get back to you within 24 hours.</p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span> Chennai, India</p>
+                    <p><span class="glyphicon glyphicon-phone"></span> +91 1234567890</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+                  </div>
+                  <div class="col-sm-7 slideanim">
+                    <div class="row">
+                      <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                      </div>
+                      <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                      </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                    <div class="row">
+                      <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Send</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <footer class="container-fluid text-center">
+                    <a href="#mypage" title="To Top">
+                      <span class="glyphicon glyphicon-chevron-up up-icon"></span>
+                    </a>
+                    <p>Maintained By<a href="http://www.vit.ac.in/">   &nbsp;VIT University</a></p>
+                  </footer>
+        <script src="particles.js"></script>
+        <script src="app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+                -->
+
+</body>
+</html>

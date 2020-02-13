@@ -1,0 +1,107 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    margin:0px;
+    background-color: rgba(236, 235, 235, 0.877) !important;
+}
+#particles-js{
+    background-color: #18b66c;
+    background-size: cover;
+    height:100vh;
+}
+
+.jumbotron{
+    top:40%;
+    background-color: #18b66c00 !important;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-family: 'Lobster', cursive;
+    word-spacing: 3px;
+    
+}
+.cnt1{
+    margin-left:-5px;
+}
+.title{
+    margin-top:-14px;
+    font-family: 'Lobster', cursive;
+    color: #ffffffe0;
+    text-shadow: 1px 1px black,1px 2px black;
+}
+#first{
+    font-size:70px;
+}
+#start{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    border:1px solid white;
+    margin-left: 15px;
+    padding:10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mycrousel{
+    padding:10px;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #18b66c;
+  }
+  .carousel-indicators li {
+    border-color: #18b66c;
+  }
+  .carousel-indicators li.active {
+    background-color: #18b66c;
+  }
+  .item h4 {
+    font-size: 18px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  .item span {
+    font-style: normal;
+  }
+.up-icon{
+    color:#18b66c;
+    font-size:27px;
+}
+#contact{
+    font-family:'Times New Roman', Times, serif;
+}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+#about{
+    margin-top:50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+#glyph_tower{
+    font-size: 90px;
+    color: #18b66c;
+    margin-top:10px;
+}
+#developers>h4{
+margin-top: 25px;
+}
+.caption{
+    margin-top:10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:19px;
+}
+#dev{
+    margin-top:55px;
+    margin-bottom: 50px;
+}
+.img-circle{
+    border: 1px solid #18b66c;
+    padding: 3px;
+}

@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+body {
+  background-color: rgba(236, 235, 235, 0.877) !important;
+  background-image: url('dw11.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100hh;
+  height:110vh;
+}
+.login-page {
+  width: 360px;
+  margin: auto;
+
+}
+.title{
+  margin-top:-16px;
+  margin-left: -8px;
+  font-family: 'Lobster', cursive;
+  color: #ffffffe0;
+  text-shadow: 1px 1px black,1px 2px black;
+}
+#first{
+  font-size:70px;
+}
+.form {
+  background: rgba(255, 255, 255, 0);
+  text-align: center;
+  width: 100%;
+  margin-top:10px;
+}
+input{
+  box-shadow:2px 2px 2px #000000b2;
+}
+.form input {
+  font-family: 'Times New Roman', Times, serif;
+  outline: 0;
+  background: #ffffff69;
+  width: 100%;
+  border: none;
+  border-radius:25px;
+  margin: 0 0 15px;
+  padding: 9px;
+  box-sizing: border-box;
+  font-size: 19px;
+  color: rgb(0, 0, 0);
+}
+::placeholder{
+  color:white;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 16px;
+}
+.form button {
+  font-family: 'Times New Roman', Times, serif;
+
+  background: #028b47;
+  width: 80%;
+  border:none;
+  border-radius:20px;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  box-shadow:2px 2px 2px #000000b2;
+}
+
+.form button:hover,.form button:active,.form button:focus {
+  background: #046b38;
+}
+.form .message {
+
+  color: #f03232d5;
+  font-size: 18px;
+  text-shadow: none;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 0px;
+}
+.form .message a {
+  color: rgb(32, 168, 39);
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.open
+{
+	font-family: 'Lobster', cursive;
+  font-size: 34px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  letter-spacing: 5px;
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  right: 4%;
+  font-size: 16px;
+}
+
+select,option{
+  box-shadow:2px 2px 2px #000000b2;
+}
+.form select,option {
+  font-family: 'Times New Roman', Times, serif;
+  outline: 0;
+  background: #ffffff69;
+  width: 100%;
+  border: none;
+  border-radius:10px;
+  margin: 0 0 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 19px;
+  color: rgb(0, 0, 0);
+}

@@ -1,0 +1,22 @@
+#topheader .navbar-nav li > a {
+    text-transform: capitalize;
+    color: rgb(243, 239, 239);
+    transition: background-color 0.2s, color 0.2s;
+  }
+  #topheader .navbar-nav li > a:hover {
+    background-color: #333;
+  }
+  #topheader .navbar-nav li > a:focus {
+    background-color: #18b66c;
+  }
+  #first{
+    font-size:50px;
+    color: #18b66c !important;
+}
+#second{
+    margin-left:-4px;
+    font-size:30px;
+}
+.navbar-header{
+  font-family: 'Lobster Two', cursive;
+}

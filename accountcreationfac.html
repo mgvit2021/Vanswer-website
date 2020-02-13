@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Create Account </title>
+        <script type="text/javascript" src="js/new.js"> </script>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Coiny|Lobster" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/logreg.css">
+        <style>
+            #hed>a{
+                text-decoration: none;
+                color: rgba(236, 235, 235, 0.877);
+            }
+        </style>
+    </head>
+    <body>
+            <div class="container title" style="margin-top:-20px;margin-left: 3px;">
+            <h1 id="hed"> <a href="index.html"><span id="first">V</span><span id="second">Answer</span></a></h1>
+           </div>
+           <center>
+                <b style="font-family: 'Lobster', cursive;color: white;
+                text-shadow: 2px 2px 4px #000000;font-size: 34px;">Register<b>
+                    </center>
+                    <br>
+    <div class="login-page">
+		<div class="form" style="margin-top:-29px;">
+        <form class="register-form" name="f1" action="login2.php" onsubmit="return check()" method="POST">
+        	<input type="text" name="names" placeholder="Username"/>
+      		<input type="text" name="regno" placeholder="Registration Number">
+      		<input type="text" name="email" placeholder="Email address"/>
+      		<input type="password" name="password" placeholder="Password"/>
+            <input type="password" name="chepassword" placeholder="Confirm Password"/>
+            <select name="cat">
+                <option value="CSE">Computer Science</option>
+                <option value="ECE">Electronics and Communication</option>
+                <option value="EEE">Electronics and Electrical</option>
+                <option value="CIVIL">Civil</option>
+                <option value="MECH">Mechanical</option>
+            </select>
+      		<button type="submit" >Create</button>
+              <p class="message">Already registered? <a href="loginto.html">Sign In</a></p>
+              <br><br><br>
+        </form>
+        </div>
+    </div>
+    </body>
+</html>
